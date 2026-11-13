@@ -14,12 +14,8 @@ int main(int argn, char **argv){
 
   while(1){
     getch();
-
   }
 
   endwin();
-
-
-
 
 }

@@ -13,10 +13,10 @@ int main(int argn, char **argv){
   echo();
 
   while(1){
-    int x = getch();
-    if(x == KEY_UP)
+    int key = getch();
+    if(key == KEY_UP)
      mvwprintw(stdscr, 7, 0, "You pressed the up arrow key");
-    if(x == KEY_DOWN)
+    if(key == KEY_DOWN)
      mvwprintw(stdscr, 7, 0, "You pressed the down arrow key");
   }
 
